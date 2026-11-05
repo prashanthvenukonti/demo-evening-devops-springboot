@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -46,6 +45,8 @@ pipeline {
             steps {
                 withSonarQubeEnv('sonarserver') {
                     sh '''
+                        export SONAR_SCANNER_JAVA_OPTS="-Xmx1024m"
+
                         ${SCANNER_HOME}/bin/sonar-scanner \
                         -Dsonar.organization=prashanthvenukonti \
                         -Dsonar.projectKey=pspringbootapp \
