@@ -25,36 +25,48 @@
 # Registers:
 
 # File marks:
-'0  118  35  ~/.bashrc
-|4,48,118,35,1793770610,"~/.bashrc"
-'1  1  0  ~/apache-maven-3.9.16/bin/.bashrc
-|4,49,1,0,1793763576,"~/apache-maven-3.9.16/bin/.bashrc"
-'2  1  0  ~/apache-maven-3.9.16/bin/.bashrc
-|4,50,1,0,1793763576,"~/apache-maven-3.9.16/bin/.bashrc"
-'3  116  2  ~/.bashrc
-|4,51,116,2,1793763367,"~/.bashrc"
-'4  1  0  ~/.bashrc
-|4,52,1,0,1793762748,"~/.bashrc"
-'5  1  0  ~/.bashrc
-|4,53,1,0,1793762748,"~/.bashrc"
-'6  1  0  ~/apache-maven-3.9.16/bin/.bashrc
-|4,54,1,0,1793762182,"~/apache-maven-3.9.16/bin/.bashrc"
+'0  1  0  ~/.bashrc
+|4,48,1,0,1793850684,"~/.bashrc"
+'1  118  35  ~/.bashrc
+|4,49,118,35,1793770610,"~/.bashrc"
+'2  118  35  ~/.bashrc
+|4,50,118,35,1793770610,"~/.bashrc"
+'3  1  0  ~/apache-maven-3.9.16/bin/.bashrc
+|4,51,1,0,1793763576,"~/apache-maven-3.9.16/bin/.bashrc"
+'4  1  0  ~/apache-maven-3.9.16/bin/.bashrc
+|4,52,1,0,1793763576,"~/apache-maven-3.9.16/bin/.bashrc"
+'5  116  2  ~/.bashrc
+|4,53,116,2,1793763367,"~/.bashrc"
+'6  116  2  ~/.bashrc
+|4,54,116,2,1793763367,"~/.bashrc"
 '7  1  0  ~/.bashrc
-|4,55,1,0,1793760764,"~/.bashrc"
+|4,55,1,0,1793762748,"~/.bashrc"
 '8  1  0  ~/.bashrc
-|4,56,1,0,1793760764,"~/.bashrc"
+|4,56,1,0,1793762748,"~/.bashrc"
 '9  1  0  ~/.bashrc
-|4,57,1,0,1793760764,"~/.bashrc"
+|4,57,1,0,1793762748,"~/.bashrc"
 
 # Jumplist (newest first):
+-'  1  0  ~/.bashrc
+|4,39,1,0,1793850684,"~/.bashrc"
+-'  118  35  ~/.bashrc
+|4,39,118,35,1793770610,"~/.bashrc"
 -'  118  35  ~/.bashrc
 |4,39,118,35,1793770610,"~/.bashrc"
 -'  1  0  ~/apache-maven-3.9.16/bin/.bashrc
 |4,39,1,0,1793763576,"~/apache-maven-3.9.16/bin/.bashrc"
 -'  1  0  ~/apache-maven-3.9.16/bin/.bashrc
 |4,39,1,0,1793763576,"~/apache-maven-3.9.16/bin/.bashrc"
+-'  1  0  ~/apache-maven-3.9.16/bin/.bashrc
+|4,39,1,0,1793763576,"~/apache-maven-3.9.16/bin/.bashrc"
+-'  1  0  ~/apache-maven-3.9.16/bin/.bashrc
+|4,39,1,0,1793763576,"~/apache-maven-3.9.16/bin/.bashrc"
 -'  116  2  ~/.bashrc
 |4,39,116,2,1793763367,"~/.bashrc"
+-'  116  2  ~/.bashrc
+|4,39,116,2,1793763367,"~/.bashrc"
+-'  60  0  ~/.bashrc
+|4,39,60,0,1793762888,"~/.bashrc"
 -'  60  0  ~/.bashrc
 |4,39,60,0,1793762888,"~/.bashrc"
 -'  1  0  ~/.bashrc
@@ -69,6 +81,16 @@
 |4,39,1,0,1793762182,"~/apache-maven-3.9.16/bin/.bashrc"
 -'  1  0  ~/apache-maven-3.9.16/bin/.bashrc
 |4,39,1,0,1793762182,"~/apache-maven-3.9.16/bin/.bashrc"
+-'  1  0  ~/apache-maven-3.9.16/bin/.bashrc
+|4,39,1,0,1793762182,"~/apache-maven-3.9.16/bin/.bashrc"
+-'  1  0  ~/apache-maven-3.9.16/bin/.bashrc
+|4,39,1,0,1793762182,"~/apache-maven-3.9.16/bin/.bashrc"
+-'  1  0  ~/apache-maven-3.9.16/bin/.bashrc
+|4,39,1,0,1793762182,"~/apache-maven-3.9.16/bin/.bashrc"
+-'  1  0  ~/apache-maven-3.9.16/bin/.bashrc
+|4,39,1,0,1793762182,"~/apache-maven-3.9.16/bin/.bashrc"
+-'  2  0  ~/apache-maven-3.9.16/bin/.bashrc
+|4,39,2,0,1793760984,"~/apache-maven-3.9.16/bin/.bashrc"
 -'  2  0  ~/apache-maven-3.9.16/bin/.bashrc
 |4,39,2,0,1793760984,"~/apache-maven-3.9.16/bin/.bashrc"
 -'  60  0  ~/.bashrc
