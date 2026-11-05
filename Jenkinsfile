@@ -38,20 +38,23 @@ pipeline {
             }
         }
 
-        stage ('Sonar Analysis') {
-        environment {
-            SCANNER_HOME = tool 'sonar-scanner'
-        }
-
-        steps {
-            withSonarQubeEnv('sonarserver') {
-                sh ''' ${SCANNER_HOME}/bin/sonar-scanner \
-                -Dsonar.organization=prashanthvenukonti \
-                -Dsonar.projectKey=pspringbootapp \ 
-                -Dsonar.projectName=springbootapp \
-                -Dsonar.sources=src/main/java \
-                -Dsonar.java.binaries=target/classes
-                '''
+        stage('Sonar Analysis') {
+            environment {
+                SCANNER_HOME = tool 'sonar-scanner'
             }
+
+            steps {
+                withSonarQubeEnv('sonarserver') {
+                    sh '''
+                        ${SCANNER_HOME}/bin/sonar-scanner \
+                        -Dsonar.organization=prashanthvenukonti \
+                        -Dsonar.projectKey=pspringbootapp \
+                        -Dsonar.projectName=springbootapp \
+                        -Dsonar.sources=src/main/java \
+                        -Dsonar.java.binaries=target/classes
+                    '''
+                }
+            }
+        }
     }
 }
