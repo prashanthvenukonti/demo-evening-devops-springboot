@@ -63,9 +63,23 @@ pipeline {
             script {
               sh 'docker build -t petclinic:v1 .'
               
+                }
+            }
+        }
+
+         stage ('Login to AWS and Push Image to ECR') {
+        steps {
+            withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-jenkins']]) {
+                sh '''
+                aws ecr get-login-password --region ap-south-1 | \
+                docker login --username AWS --password-stdin 426499248959.dkr.ecr.ap-south-1.amazonaws.com
+                docker tag petclinic:v1 426499248959.dkr.ecr.ap-south-1.amazonaws.com/petclinic:latest
+                docker push 426499248959.dkr.ecr.ap-south-1.amazonaws.com/petclinic:latest
+                '''
             }
         }
       }
+
 
     }
 }
