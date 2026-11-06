@@ -76,8 +76,19 @@ pipeline {
                 docker tag petclinic:v1 426499248959.dkr.ecr.ap-south-1.amazonaws.com/petclinic:latest
                 docker push 426499248959.dkr.ecr.ap-south-1.amazonaws.com/petclinic:latest
                 '''
+                 }
+             }
+         }
+
+        stage ('Deploy To EKS') {
+        steps {
+            withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-jenkins']]) {
+                sh '''
+                aws eks update-kubeconfig --region ap-south-1 --name demo-eks-cluster
+                kubectl apply -f k8s/sprinboot-deployment.yaml
+                '''
             }
-        }
+         }
       }
 
 
